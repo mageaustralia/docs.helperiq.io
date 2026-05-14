@@ -5,6 +5,9 @@ hero:
   name: HelperIQ
   text: AI-assisted customer support desk
   tagline: Open-source helpdesk with RAG knowledge base, ecommerce context, and multi-provider AI replies. Self-hosted, AGPL.
+  image:
+    src: /images/conversation-detail.png
+    alt: HelperIQ conversation view with reply box and contact sidebar
   actions:
     - theme: brand
       text: Get Started

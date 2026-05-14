@@ -1,5 +1,7 @@
 # AI Settings
 
+![AI Settings admin page showing OpenAI and OpenRouter providers](/images/ai-settings.png)
+
 ::: warning Stub
 This page is a placeholder. Full reference coming soon.
 :::

@@ -1,5 +1,7 @@
 # Ecommerce
 
+![Ecommerce settings page](/images/ecommerce-settings.png)
+
 ::: warning Stub
 This page is a placeholder. Full reference coming soon.
 :::

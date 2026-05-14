@@ -1,5 +1,7 @@
 # Introduction
 
+![Conversation list — Inbox view](/images/conversation-list.png)
+
 HelperIQ is a self-hosted customer support desk built on top of the
 open-source [LibreDesk](https://github.com/abhinavxd/libredesk) project,
 extended by [Mage Australia](https://mageaustralia.com.au) with:

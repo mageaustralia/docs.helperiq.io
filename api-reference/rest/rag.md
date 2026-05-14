@@ -5,6 +5,8 @@ backed by `pgvector`. Knowledge sources are vectorised on a schedule, and
 the agent-facing "Generate Response" button performs a cosine-similarity
 search to find supporting context for an AI-drafted reply.
 
+![Knowledge sources admin page](/images/knowledge-sources.png)
+
 This page documents the REST surface for managing knowledge sources and
 invoking generation.
 

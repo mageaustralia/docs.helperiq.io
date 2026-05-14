@@ -9,6 +9,8 @@ Per-feature deep-dives are planned. For now, here's the overview:
 
 ## AI / RAG
 
+![AI Settings admin page](/images/ai-settings.png)
+
 - **Multi-provider AI** — OpenAI, Anthropic Claude, OpenRouter (100+
   models). Configure providers under Admin → AI Settings.
 - **Generate Response** — agent-facing button that drafts an AI reply
@@ -17,6 +19,9 @@ Per-feature deep-dives are planned. For now, here's the overview:
 - **Knowledge sources** — webpages, macros, custom snippets, file
   uploads. Vectorised with `pgvector`. See
   [RAG API reference](../api-reference/rest/rag).
+
+  ![Knowledge sources admin](/images/knowledge-sources.png)
+
 - **Per-inbox AI overrides** — different inboxes can use different
   providers/models/prompts.
 - **AI prompts library** — built-in "Improve writing", "Make shorter",
@@ -26,6 +31,8 @@ Per-feature deep-dives are planned. For now, here's the overview:
   AI provider as base64 image content (resized to max 500x500).
 
 ## Ecommerce integration
+
+![Ecommerce settings page](/images/ecommerce-settings.png)
 
 - **Maho Commerce / Magento 1** provider with OAuth2 client_credentials
   auth.
@@ -48,6 +55,9 @@ Per-feature deep-dives are planned. For now, here's the overview:
   pickers on each conversation list row.
 - **Macro toolbar button** — one-click macro insertion in the reply
   editor (alongside the existing `Ctrl+K` flow).
+
+  ![Macros admin](/images/macros-admin.png)
+
 
 ## Compliance / safety
 
