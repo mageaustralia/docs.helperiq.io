@@ -6,6 +6,7 @@ export default withMermaid(
     title: 'HelperIQ',
     description:
       'Open-source customer support desk with AI-assisted replies, RAG knowledge base, and ecommerce integration.',
+    ignoreDeadLinks: 'localhostLinks',
     head: [
       ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ],
@@ -44,10 +45,26 @@ export default withMermaid(
           text: 'API Reference',
           collapsed: false,
           items: [
-            { text: 'Overview', link: '/api-reference/' },
+            { text: 'API Introduction', link: '/api-reference/' },
             { text: 'WebSocket API', link: '/api-reference/websocket' },
             {
-              text: 'REST Endpoints',
+              text: 'Core REST',
+              collapsed: false,
+              items: [
+                { text: 'Conversations & Messages', link: '/api-reference/rest/conversations' },
+                { text: 'Contacts', link: '/api-reference/rest/contacts' },
+                { text: 'Agents & Teams', link: '/api-reference/rest/agents-teams' },
+                { text: 'Statuses, Priorities & Tags', link: '/api-reference/rest/statuses-priorities-tags' },
+                { text: 'AI', link: '/api-reference/rest/ai' },
+                { text: 'Inboxes', link: '/api-reference/rest/inboxes' },
+                { text: 'Macros', link: '/api-reference/rest/macros' },
+                { text: 'Search', link: '/api-reference/rest/search' },
+                { text: 'Media', link: '/api-reference/rest/media' },
+                { text: 'Health', link: '/api-reference/rest/health' },
+              ],
+            },
+            {
+              text: 'HelperIQ Extensions',
               collapsed: false,
               items: [
                 { text: 'RAG (Knowledge Base)', link: '/api-reference/rest/rag' },

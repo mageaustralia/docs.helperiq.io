@@ -467,7 +467,6 @@ The agent UI deduplicates by `user_id` before rendering.
 
 ## Related
 
-- [REST API → Conversations](./rest/) for retrieving the initial
-  conversation state before subscribing.
 - [Followers](./rest/followers) for adding agents to a conversation
   so they receive `new_message` over WS without being assigned.
+- [API Reference overview](./) for the full endpoint catalogue.
