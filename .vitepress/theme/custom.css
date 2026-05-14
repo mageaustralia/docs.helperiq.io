@@ -1,0 +1,62 @@
+/*
+ * Bump the home page hero image well past the VitePress defaults.
+ *
+ * VitePress caps the hero image at 256px on tablet and 320px on desktop —
+ * fine for a logo, way too small for a UI screenshot. We override the
+ * .image-src caps so the screenshot reads as a real product shot.
+ *
+ * The image lives inside a fixed-aspect-ratio .image-container, so we
+ * also expand the container at the same breakpoints.
+ */
+
+:root {
+  --vp-home-hero-image-background-image: none;
+  --vp-home-hero-image-filter: none;
+}
+
+/* Tablet+ */
+@media (min-width: 640px) {
+  .VPHome .image-container {
+    width: 480px;
+    height: auto;
+    transform: none;
+  }
+
+  .VPHome .image-src {
+    max-width: 480px;
+    max-height: none;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: auto;
+    left: auto;
+    border-radius: 12px;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
+  }
+
+  .VPHome .image-bg {
+    display: none;
+  }
+}
+
+/* Desktop */
+@media (min-width: 960px) {
+  .VPHome .image-container {
+    width: 720px;
+  }
+
+  .VPHome .image-src {
+    max-width: 720px;
+  }
+}
+
+/* Wide desktop — let the screenshot really breathe */
+@media (min-width: 1280px) {
+  .VPHome .image-container {
+    width: 860px;
+  }
+
+  .VPHome .image-src {
+    max-width: 860px;
+  }
+}
